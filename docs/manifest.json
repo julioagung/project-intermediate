@@ -1,0 +1,98 @@
+{
+  "name": "Dicoding Stories",
+  "short_name": "Stories",
+  "description": "Share your stories with location on Dicoding Stories - A modern web application for storytelling with maps",
+  "start_url": "/dicoding-stories/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ff6b9d",
+  "orientation": "portrait-primary",
+  "scope": "/dicoding-stories/",
+  "lang": "en-US",
+  "dir": "ltr",
+  "categories": ["lifestyle", "social", "travel", "photography"],
+  "screenshots": [
+    {
+      "src": "/images/screenshot-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Mobile view showing story feed with map"
+    },
+    {
+      "src": "/images/screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Desktop view with story list and interactive map"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Add New Story",
+      "short_name": "Add Story",
+      "description": "Quickly add a new story with photo and location",
+      "url": "/dicoding-stories/#/add",
+      "icons": [
+        {
+          "src": "/favicon.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "View Favorites",
+      "short_name": "Favorites",
+      "description": "Browse your favorite stories",
+      "url": "/dicoding-stories/#/?filter=favorites",
+      "icons": [
+        {
+          "src": "/favicon.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "prefer_related_applications": false,
+  "related_applications": []
+}
